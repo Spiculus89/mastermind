@@ -49,23 +49,23 @@ html {
 } 
 
 .colors .red, .circles .red {
-  background-color: #E42244;
+  background-color: red;
 }
 
 .colors .green, .circles .green {
-  background-color: #70C030;
+  background-color: green;
 }
 
 .colors .orange, .circles .orange {
-  background-color: #FFBB36;
+  background-color: orange;
 }
 
 .colors .blue, .circles .blue {
-  background-color: #36BEDD;
+  background-color: blue;
 }
 
 .colors .purple, .circles .purple {
-  background-color: #9F66DF;
+  background-color: purple;
 }
 
 .colors .yellow, .circles .yellow {
