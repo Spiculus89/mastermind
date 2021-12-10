@@ -49,23 +49,23 @@ html {
 } 
 
 .colors .red, .circles .red {
-  background-color: #E42244;
+  background-color: red;
 }
 
 .colors .green, .circles .green {
-  background-color: #70C030;
+  background-color: green;
 }
 
 .colors .orange, .circles .orange {
-  background-color: #FFBB36;
+  background-color: orange;
 }
 
 .colors .blue, .circles .blue {
-  background-color: #36BEDD;
+  background-color: blue;
 }
 
 .colors .purple, .circles .purple {
-  background-color: #9F66DF;
+  background-color: purple;
 }
 
 .colors .yellow, .circles .yellow {
@@ -157,11 +157,19 @@ html {
   cursor: default;
 }
 
-.solution a {
+.solution button {
   color: #338855;
   font-size: 1.1em;
-  text-decoration: underline;
   cursor: pointer;
+  margin-top: 0.5em;
+  padding: 0.2em;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.solution button:hover {
+  color: red;
+  border: 1px solid red;
 }
 
 .msg {

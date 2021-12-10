@@ -4,7 +4,7 @@ const Solution = (props) => {
   let solutionPegs = []
   let solutionClass = ''
   const isHidden = (props.state.defeat && !props.state.victory) ? '' : ' hidden'
-  const playAgain = (!props.state.defeat && props.state.victory) ? '' : ' hidden' 
+  const playAgain = (props.state.defeat || props.state.victory) ? '' : ' hidden' 
   for (let i = 0; i < props.state.trueRow.length; i++) {
     solutionClass = props.state.trueRow[i]
     solutionPegs.push(
@@ -20,7 +20,7 @@ const Solution = (props) => {
         {solutionPegs}
       </div>
       <div className={playAgain}>
-        <a onClick={props.newGame}> Play Again?</a>
+        <button onClick={props.newGame} > Play Again?</button>
       </div>
     </div>
   )
